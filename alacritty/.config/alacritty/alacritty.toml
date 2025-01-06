@@ -1,4 +1,4 @@
-import = ["/home/thecrawler/.config/alacritty/themes/themes/blood_moon.toml"]
+general.import = ["/home/thecrawler/.config/alacritty/themes/themes/blood_moon.toml"]
 
 [colors.primary]
 background = "#1E1E1E"
@@ -10,11 +10,11 @@ blinking = "Never"
 size = 12
 
 [font.bold]
-family = "MesloLGS NF"
+family = "MesloLGS Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "MesloLGS NF"
+family = "MesloLGS Nerd Font"
 style = "Bold Italic"
 
 [font.glyph_offset]
@@ -22,11 +22,11 @@ x = 0
 y = 0
 
 [font.italic]
-family = "MesloLGS NF"
+family = "MesloLGS Nerd Font"
 style = "Italic"
 
 [font.normal]
-family = "MesloLGS NF"
+family = "MesloLGS Nerd Font"
 style = "Regular"
 
 [font.offset]
