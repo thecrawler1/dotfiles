@@ -2,8 +2,7 @@
 
 declare -A targets
 
-targets["pacman"]="/etc/"
-targets["lightdm"]="/etc/lightdm"
+targets["etc"]="/etc/"
 targets["udev"]="/etc/udev/rules.d/"
 targets["bin"]="/bin/"
 
