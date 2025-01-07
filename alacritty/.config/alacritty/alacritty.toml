@@ -1,4 +1,5 @@
-general.import = ["/home/thecrawler/.config/alacritty/themes/themes/blood_moon.toml"]
+[general]
+import = ["/home/thecrawler/.config/alacritty/themes/themes/blood_moon.toml"]
 
 [colors.primary]
 background = "#1E1E1E"
