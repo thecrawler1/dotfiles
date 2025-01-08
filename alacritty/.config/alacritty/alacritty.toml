@@ -11,11 +11,11 @@ blinking = "Never"
 size = 14
 
 [font.bold]
-family = "MesloLGS Nerd Font"
+family = "MesloLGS NF"
 style = "Bold"
 
 [font.bold_italic]
-family = "MesloLGS Nerd Font"
+family = "MesloLGS NF"
 style = "Bold Italic"
 
 [font.glyph_offset]
@@ -23,11 +23,11 @@ x = 0
 y = 0
 
 [font.italic]
-family = "MesloLGS Nerd Font"
+family = "MesloLGS NF"
 style = "Italic"
 
 [font.normal]
-family = "MesloLGS Nerd Font"
+family = "MesloLGS NF"
 style = "Regular"
 
 [font.offset]
