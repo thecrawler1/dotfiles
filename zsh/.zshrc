@@ -27,9 +27,9 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # Lines to add alias
 alias vi=lvim
 alias vim=lvim
-alias ls='exa -l --icons'
-alias la='exa -a --icons'
-alias ll='exa -la --icons'
+alias ls='eza -l --icons'
+alias la='eza -a --icons'
+alias ll='eza -la --icons'
 alias lo='ll --sort=modified'
 alias cat='bat --style=auto --theme="OneHalfDark"'
 alias top=btm
@@ -52,7 +52,6 @@ alias ........='../../../../../../..'
 alias .........='../../../../../../../..'
 alias ..........='../../../../../../../../..'
 alias ...........='../../../../../../../../../..'
-alias zomboid=~/Games/ProjectZomboid/start.n.sh
 # End of lines adding alias
 
 # Load powerlevel10k
@@ -64,17 +63,29 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # Add cargo to path
 export PATH=/home/thecrawler/.cargo/bin:$PATH
 
-# Add lunarvim to path
-export PATH=/home/thecrawler/.local/bin:$PATH
-
 # Add zsh-autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Add asdf
 source /opt/asdf-vm/asdf.sh
 
-# Set lunar vim as the default editor
+# Set neovim as the default editor
 export EDITOR=nvim
 
 # gcloud
 source /etc/profile.d/google-cloud-cli.sh
+
+function xterm_title_precmd () {
+	print -Pn -- '\e]2;%n@%m %~\a'
+	[[ "$TERM" == 'screen'* ]] && print -Pn -- '\e_\005{2}%n\005{-}@\005{5}%m\005{-} \005{+b 4}%~\005{-}\e\\'
+}
+
+function xterm_title_preexec () {
+	print -Pn -- '\e]2;%n@%m %~ %# ' && print -n -- "${(q)1}\a"
+	[[ "$TERM" == 'screen'* ]] && { print -Pn -- '\e_\005{2}%n\005{-}@\005{5}%m\005{-} \005{+b 4}%~\005{-} %# ' && print -n -- "${(q)1}\e\\"; }
+}
+
+if [[ "$TERM" == (Eterm*|alacritty*|aterm*|foot*|gnome*|konsole*|kterm*|putty*|rxvt*|screen*|wezterm*|tmux*|xterm*) ]]; then
+	add-zsh-hook -Uz precmd xterm_title_precmd
+	add-zsh-hook -Uz preexec xterm_title_preexec
+fi
