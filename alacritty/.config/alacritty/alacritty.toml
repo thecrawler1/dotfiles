@@ -2,13 +2,13 @@
 import = ["/home/thecrawler/.config/alacritty/themes/themes/blood_moon.toml"]
 
 [colors.primary]
-background = "#1E1E1E"
+background = "#101317"
 
 [cursor.style]
 blinking = "Never"
 
 [font]
-size = 12
+size = 14
 
 [font.bold]
 family = "MesloLGS Nerd Font"
