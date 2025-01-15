@@ -63,6 +63,9 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # Add cargo to path
 export PATH=/home/thecrawler/.cargo/bin:$PATH
 
+# Add mssql-server to path
+export PATH=/opt/mssql/bin:$PATH
+
 # Add zsh-autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
