@@ -25,14 +25,14 @@ zstyle ':completion::complete:*' gain-privileges 1
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Lines to add alias
-alias vi=lvim
-alias vim=lvim
+alias vi=nvim
+alias vim=nvim
 alias ls='eza -l --icons'
 alias la='eza -a --icons'
 alias ll='eza -la --icons'
 alias lo='ll --sort=modified'
 alias cat='bat --style=auto --theme="OneHalfDark"'
-alias top=btm
+alias top=htop
 alias grep='grep --color=auto'
 alias less=cat
 alias more=less
