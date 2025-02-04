@@ -70,7 +70,7 @@ export PATH=/opt/mssql/bin:$PATH
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Add asdf
-source /opt/asdf-vm/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # Set neovim as the default editor
 export EDITOR=nvim
