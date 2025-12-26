@@ -16,7 +16,15 @@
       "tail": "allow",
       "wc": "allow",
       "du": "allow",
-      "df": "allow"
+      "df": "allow",
+      "flutter doctor": "allow",
+      "flutter devices": "allow",
+      "flutter --version": "allow",
+      "flutter pub deps": "allow",
+      "dart --version": "allow",
+      "dart pub deps": "allow",
+      "dart analyze": "allow",
+      "dart format": "allow"
     },
     "read": {
       "*": "allow"
