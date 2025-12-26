@@ -17,6 +17,9 @@
       "wc": "allow",
       "du": "allow",
       "df": "allow"
+    },
+    "read": {
+      "*": "allow"
     }
   }
 }
