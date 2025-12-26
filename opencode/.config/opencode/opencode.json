@@ -21,6 +21,7 @@
       "flutter devices": "allow",
       "flutter --version": "allow",
       "flutter pub deps": "allow",
+      "flutter test": "allow",
       "dart --version": "allow",
       "dart pub deps": "allow",
       "dart analyze": "allow",
