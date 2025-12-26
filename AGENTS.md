@@ -3,7 +3,7 @@
 ## Build/Lint/Test Commands
 - **Stow all configs**: `./stow-all.sh` - Deploy all dotfiles using GNU Stow
 - **Unstow all configs**: `./stow-all.sh -D` - Remove all deployed dotfiles
-- **Restow configs**: `./stow-all.sh -R` - Update existing dotfiles
+- **Restow configs**: `./stow-all.sh -R` - Update existing dotfiles (only needed when adding/removing files, not for editing existing ones)
 - **Shell lint**: `shellcheck **/*.sh` - Lint all shell scripts for errors
 - **Single script test**: `bash -n path/to/script.sh` - Syntax check individual script
 
