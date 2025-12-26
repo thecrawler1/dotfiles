@@ -22,6 +22,7 @@
       "flutter --version": "allow",
       "flutter pub deps": "allow",
       "flutter test": "allow",
+      "flutter analyze": "allow",
       "dart --version": "allow",
       "dart pub deps": "allow",
       "dart analyze": "allow",
