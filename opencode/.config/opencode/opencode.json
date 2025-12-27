@@ -1,5 +1,15 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "plugin": ["oh-my-opencode"],
+  "provider": {
+    "proxy": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "LLM Proxy",
+      "options": {
+        "baseURL": "http://127.0.0.1:8000/v1"
+      }
+    }
+  },
   "permission": {
     "bash": {
       "*": "ask",

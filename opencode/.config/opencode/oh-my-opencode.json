@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "google_auth": false,
+  "agents": {
+    "frontend-ui-ux-engineer": { "model": "antigravity/gemini-3-pro-preview" },
+    "oracle": { "model": "antigravity/claude-sonnet-4-5" },
+    "librarian": { "model": "antigravity/claude-opus-4-5-thinking" },
+    "explore": { "model": "antigravity/gemini-2.5-flash" }
+  }
+}
