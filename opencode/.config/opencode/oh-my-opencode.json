@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "google_auth": false,
   "agents": {
-    "Sisyphus": { "model": "antigravity/claude-opus-4-5" },
-    "oracle": { "model": "openrouter/openai/gpt-5.2" },
-    "librarian": { "model": "antigravity/claude-sonnet-4-5" },
+    "Sisyphus": { "model": "proxy/claude-opus-4-5" },
+    "oracle": { "model": "proxy/openai/gpt-5.2" },
+    "librarian": { "model": "proxy/claude-sonnet-4-5" },
     "explore": { "model": "opencode/grok-code" },
-    "frontend-ui-ux-engineer": { "model": "antigravity/gemini-3-pro-preview" },
-    "document-writer": { "model": "antigravity/gemini-3-pro-preview" },
-    "multimodal-looker": { "model": "gemini_cli/gemini-2.5-flash" }
+    "frontend-ui-ux-engineer": { "model": "proxy/gemini-3-pro-preview" },
+    "document-writer": { "model": "proxy/gemini-3-pro-preview" },
+    "multimodal-looker": { "model": "proxy/gemini-2.5-flash" }
   }
 }
