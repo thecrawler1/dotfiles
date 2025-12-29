@@ -3,11 +3,11 @@
   "google_auth": false,
   "agents": {
     "Sisyphus": { "model": "proxy/claude-opus-4-5" },
-    "oracle": { "model": "proxy/openai/gpt-5.2" },
+    "oracle": { "model": "proxy/gemini-3-pro" },
     "librarian": { "model": "proxy/claude-sonnet-4-5" },
     "explore": { "model": "opencode/grok-code" },
-    "frontend-ui-ux-engineer": { "model": "proxy/gemini-3-pro-preview" },
-    "document-writer": { "model": "proxy/gemini-3-pro-preview" },
+    "frontend-ui-ux-engineer": { "model": "proxy/gemini-3-pro" },
+    "document-writer": { "model": "proxy/gemini-3-pro" },
     "multimodal-looker": { "model": "proxy/gemini-2.5-flash" }
   }
 }
