@@ -47,7 +47,7 @@
         },
         "gemini-3-pro-antigravity": {
           "id": "antigravity/gemini-3-pro-preview",
-          "name": "Gemini 3 Pro",
+          "name": "Gemini 3 Pro Antigravity",
           "family": "gemini",
           "reasoning": true,
           "tool_call": true,
@@ -115,7 +115,7 @@
         },
         "gemini-3-pro": {
           "id": "gemini_cli/gemini-3-pro-preview",
-          "name": "Gemini CLI 3 Pro Preview",
+          "name": "Gemini 3 Pro",
           "family": "gemini",
           "reasoning": true,
           "tool_call": true,
