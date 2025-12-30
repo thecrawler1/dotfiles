@@ -2,9 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "google_auth": false,
   "agents": {
-    "Sisyphus": { "model": "proxy/claude-opus-4-5" },
+    "Sisyphus": { "model": "proxy/gemini-3-pro" },
     "oracle": { "model": "proxy/gemini-3-pro" },
-    "librarian": { "model": "proxy/claude-sonnet-4-5" },
+    "librarian": { "model": "proxy/gemini-3-pro" },
     "explore": { "model": "opencode/grok-code" },
     "frontend-ui-ux-engineer": { "model": "proxy/gemini-3-pro" },
     "document-writer": { "model": "proxy/gemini-3-pro" },
